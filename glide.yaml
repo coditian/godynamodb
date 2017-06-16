@@ -1,0 +1,13 @@
+package: github.com/pallat/dynamodoc
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v1.8.43
+  subpackages:
+  - aws
+  - service/dynamodb
+  - service/dynamodb/dynamodbattribute
+- package: github.com/pkg/errors
+  version: v0.8.0
+- package: github.com/sprint3r/common_diverse_golang
+  subpackages:
+  - handlers/questionnaire/model
